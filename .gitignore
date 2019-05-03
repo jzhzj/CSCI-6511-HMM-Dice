@@ -7,6 +7,9 @@
 # Build output
 /target
 
+# out
+/out
+
 # MacOS related files
 .DS_Store
 

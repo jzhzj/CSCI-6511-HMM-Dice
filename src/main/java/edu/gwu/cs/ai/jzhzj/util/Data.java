@@ -26,8 +26,8 @@ public interface Data {
     /**
      * get the probability of a certain rolling number with a certain dice
      *
-     * @param dice  dice
-     * @param num   num
+     * @param dice dice
+     * @param num  num
      * @return the probability
      */
     double getPrOfNum(int dice, int num);
