@@ -11,18 +11,16 @@ public interface Data {
     /**
      * get the log of the probability of switching
      *
-     * @param isLog indicating whether getting log of the probability
      * @return log of the probability
      */
-    double getPrOfSwitching(boolean isLog);
+    double getPrOfSwitching();
 
     /**
      * get the probability of not switching
      *
-     * @param isLog indicating whether getting log of the probability
      * @return the probability
      */
-    double getPrOfNotSwitching(boolean isLog);
+    double getPrOfNotSwitching();
 
 
     /**
@@ -30,10 +28,9 @@ public interface Data {
      *
      * @param dice  dice
      * @param num   num
-     * @param isLog indicating whether getting log of the probability
      * @return the probability
      */
-    double getPrOfNum(int dice, int num, boolean isLog);
+    double getPrOfNum(int dice, int num);
 
     /**
      * get the emissions
